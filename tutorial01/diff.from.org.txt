@@ -1,0 +1,16 @@
+14c14
+< // gcc -o tutorial01 tutorial01.c -lavformat -lavcodec -lswscale -lz
+---
+> // gcc -o tutorial01 tutorial01.c -lavformat -lavcodec -lswscale -lz -lavutil
+131c131
+<   numBytes=avpicture_get_size(PIX_FMT_RGB24, pCodecCtx->width,
+---
+>   numBytes=avpicture_get_size(AV_PIX_FMT_RGB24, pCodecCtx->width,
+138c138
+<   avpicture_fill((AVPicture *)pFrameRGB, buffer, PIX_FMT_RGB24,
+---
+>   avpicture_fill((AVPicture *)pFrameRGB, buffer, AV_PIX_FMT_RGB24,
+147c147
+< 			   PIX_FMT_RGB24,
+---
+> 			   AV_PIX_FMT_RGB24,
