@@ -1,5 +1,5 @@
 # rpi-ffmpeg-tutorial
-Update of Stephen Dranger's ffmepg tutorial for Raspberry Pi  
+Update of [Stephen Dranger's ffmepg tutorial](http://dranger.com/ffmpeg/) for Raspberry Pi  
 Tested on:  
 - Raspbian jessie  
 - ffmpeg version N-83476-g96ee6da  
